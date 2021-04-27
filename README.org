@@ -6,11 +6,11 @@
 
 ** Author
 
-+ Patrick Bunetic (pbunetic@pm.me)
++ Patrick Bunetic (soup-jingle@protonmail.com)
 
 ** Copyright
 
-Copyright (c) 2020 Patrick Bunetic (pbunetic@pm.me)
+Copyright (c) 2020 Patrick Bunetic (soup-jingle@protonmail.com)
 
 ** License
 
