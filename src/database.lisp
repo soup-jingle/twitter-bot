@@ -5,14 +5,19 @@
    :execute :fetch)
   (:import-from :cl-ppcre
    :regex-replace-all)
+  (:import-from :config-io
+   :read-config :set-values)
   )
 (in-package :patch-database)
 
-;; (defvar db-host "localhost")
-;; (defvar db-port 3306)
-(defvar db-name "idols")
-(defvar db-user "root")
-(defvar db-pass "27abVotrM76")
+(defvar db-name nil)
+(defvar db-user nil)
+(defvar db-pass nil)
+
+(set-values (read-config "~/.config/lisp/db.conf")
+	    :db-name db-name
+	    :db-user db-user
+	    :db-pass db-pass)
 
 (defun simplify-name (name)
   (let* ((name (regex-replace-all "A[Aa]" name "Ā"))
