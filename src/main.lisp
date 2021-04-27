@@ -12,7 +12,6 @@
   (:export :main))
 (in-package :patch-bday-bot)
 
-(defvar media-dir "/home/patrick/prog/lisp/projects/twitterbot/media/")
 
 ;; (setf birthday-tweet-body
 ;;       "<~A.~A>~%~A~%Happy Birthday! ~A 🎉~%~A~&~A~&~%#~A")

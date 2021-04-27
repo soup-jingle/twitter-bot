@@ -1,4 +1,4 @@
-* patch-bday-Bot 
+* patch-bday-bot 
 
 ** Usage
 
