@@ -1,0 +1,17 @@
+* Patch-Bday-Bot 
+
+** Usage
+
+** Installation
+
+** Author
+
++ Patrick Bunetic (pbunetic@pm.me)
+
+** Copyright
+
+Copyright (c) 2020 Patrick Bunetic (pbunetic@pm.me)
+
+** License
+
+Licensed under the LLGPL License.
